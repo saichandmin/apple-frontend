@@ -1,0 +1,39 @@
+.studio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.case-selection,
+.size-selection,
+.band-selection,
+.collection-switcher,
+.price-display {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 10px;
+}
+
+.case-item,
+.band-item {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.case-item.selected,
+.band-item.selected {
+  border-color: #0070f3;
+  background-color: #f0f8ff;
+}
+
+.toggle button.active {
+  background-color: #0070f3;
+  color: white;
+}
